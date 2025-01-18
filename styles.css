@@ -1,0 +1,127 @@
+body {
+    font-family:  Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C6E2E1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #8FCDEA;
+    color: black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+header .logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10vw;
+    justify-content: flex-start;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Map Section */
+.map {
+    display: flex;
+    padding: 2rem;
+}
+.map img {
+    width: 50%;
+    border-radius: 10px;
+}
+.legend {
+    margin-left: 2rem;
+}
+.legent p {
+    margin: 0.5rem 0;
+}
+.legend button {
+    background-color: #44A34A;
+    color: #3B3B3B;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.legend button:hover {
+    background-color: #5aa35f;
+}
+
+
+/* Recent Trips Section */
+.recent-trips {
+    padding: 2rem;
+    width: 50%;
+    margin: 0;
+}
+.recent-trips .trips-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.trip-card {
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 225px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.trip-card img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 140px;
+    object-fit: cover;
+}
+.trip-card .details {
+    padding: 1rem;
+}
+.trip-card .details h3 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+.stars {
+    color: gold;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+/* Planned Trips Section */
+.planned-trips ul {
+    list-style: none;
+    padding: 0;
+  }
+  .planned-trips ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #47b4e7;
+    color: white;
+  }

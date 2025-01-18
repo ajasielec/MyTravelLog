@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>MyTravelLog</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src = "assets/logo.png" alt="MyTravelLog Logo">
+                <h1>MyTravelLog</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trips</a></li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="map">
+                <img src="assets/map-placeholder.png" alt="Map">
+                <div class="legend">
+                    <p><span class="visited"></span> Visited places (5)</p>
+                    <p><span class="planned"></span> Planned trips (2)</p>
+                    <p><span class="dream"></span> Dream trips (4)</p>
+                    <button>+ Add New Trip</button>
+                </div>
+            </section>
+
+            <section class="recent-trips">
+                <h2>Your recent trips:</h2>
+                <div class="trips-container">
+                    <div class="trip-card">
+                        <img src="assets/rome.png" alt="Rome">
+                        <div class="details">
+                            <h3>Italy, Rome</h3>
+                            <p class="stars">★★★★★</p>
+                            <p>29/08/2024 - 05/09/2024</p>
+                            <div class="actions">
+                                <button>Details</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trip-card">
+                        <img src="assets/rome.png" alt="Rome">
+                        <div class="details">
+                            <h3>Italy, Rome</h3>
+                            <p class="stars">★★★★★</p>
+                            <p>29/08/2024 - 05/09/2024</p>
+                            <div class="actions">
+                                <button>Details</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trip-card">
+                        <img src="assets/rome.png" alt="Rome">
+                        <div class="details">
+                            <h3>Italy, Rome</h3>
+                            <p class="stars">★★★★★</p>
+                            <p>29/08/2024 - 05/09/2024</p>
+                            <div class="actions">
+                                <button>Details</button>
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="planned-trips">
+                <h2>Planned Trips:</h2>
+                <ul>
+                    <li>
+                        Japan, Tokyo (29/03/2025 - 05/04/2025)
+                        <button>Details</button>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </li>
+
+                    <li>
+                        Japan, Tokyo (29/03/2025 - 05/04/2025)
+                        <button>Details</button>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 MyTravelLog. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
