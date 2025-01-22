@@ -37,24 +37,28 @@ header nav ul {
     list-style: none;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 9rem;
+    margin-right: 5rem;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
-/* Main - układ Flexbox */
+.currentPage{
+    color: #65558F;
+}
+
 main {
     display: flex;
-    justify-content: space-between; /* Rozkład sekcji */
-    align-items: flex-start; /* Wyrównanie sekcji do góry */
-    gap: 20px; /* Odstęp między sekcjami */
-    padding: 20px; /* Dodatkowy odstęp od krawędzi */
-    flex-wrap: wrap; /* Obsługa małych ekranów */
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px; 
+    padding: 20px; 
+    flex-wrap: wrap; 
 }
 h2 {
     margin-bottom: 10px;
@@ -176,6 +180,7 @@ h2 {
 .actions {
     display: flex;
     align-items: center;
+    margin-left: auto;
     justify-content: space-evenly;
 }
 

@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.currentPage{
+    color: #65558F;
+}
+
+.trips-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 120px;
+}
+
+.trips-controls button {
+    color: #333333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.trips-controls button:hover {
+    background-color: #65558fa1;
+}
+
+.trips-controls .view-toggle {
+    background-color: #ddd;
+    color: #333;
+}
+.trips-controls .view-toggle.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.trips-controls input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+}
+.trips-controls .add-new-trip {
+    background-color: #44A34A;
+    color: #3B3B3B;
+    font-weight: bold;
+}
+.trips-controls .add-new-trip:hover {
+    background-color: #4EC957;
+}
+
+.trip-filters {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.trip-filters h3 {
+    display: block;
+    clear: both;
+}
+
+.trips {
+    width: 100%;
+    max-width: none;
+}
+
+.trips .trips-container {
+    display: flex;
+    gap: 1.5rem;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 2.5rem;
+}
