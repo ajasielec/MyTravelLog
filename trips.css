@@ -4,10 +4,6 @@ main {
     gap: 20px;
 }
 
-.currentPage{
-    color: #65558F;
-}
-
 .trips-controls {
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +40,7 @@ main {
 .trips-controls input[type="text"] {
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 14px;
     width: 200px;
 }

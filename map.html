@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - MyTravelLog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="map.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src = "assets/logo.png" alt="MyTravelLog Logo">
+            <h1>MyTravelLog</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a class="currentPage" href="map.html">Map</a></li>
+                <li><a href="statistic.html">Statistics</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="map-controls">
+            <h1>Map</h1>
+            <input type="text" placeholder="Search Trips">
+            <div class="filters">
+                <button>Visited</button>
+                <button>Planned</button>
+                <button>Dream</button>
+            </div>
+            <button class="add-new-trip">+ Add New Trip</button>
+        </div>
+        <section class="map">
+            <img src="assets/map-placeholder.png" alt="Map">
+            <div class="legend">
+                <p><span class="visited"></span> 📌Visited places (5)</p>
+                <p><span class="planned"></span> 📌Planned trips (2)</p>
+                <p><span class="dream"></span> 📌Dream trips (4)</p>
+            </div>
+        </section>
+    </main>
+
+
+</body>
