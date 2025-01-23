@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Profile - MyTravelLog</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="profile.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src = "assets/logo.png" alt="MyTravelLog Logo">
+                <h1>MyTravelLog</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="statistics.html">Statistics</a></li>
+                    <li><a class="currentPage" href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Bio Section -->
+            <section class="bio">
+                <div class="profile-container">
+                    <img class="profile-pic" src="assets/profile-pic.png" alt="Profile Picture">
+                    <h2 class="profile-name">Oliwia Lis</h2>
+                </div>
+                <div class="bio-info">
+                    <span class="bio-label">Bio:</span>
+                    <p class="bio-description">
+                        Lorem ipsum dolor sit amet consectetur. Amet ultricies mi elit volutpat feugiat faucibus enim lorem sagittis. Diam nec laoreet lectus commodo neque id arcu. Et.
+                    </p>
+                </div>
+                <button class="edit-profile">✏️Edit profile</button>
+            </section>
+
+             <!-- Statistics Section -->
+            <section class="stats">
+                <div class="statistics">
+                    <p>Visited places: <strong>33</strong></p>
+                    <p>Planned trips: <strong>3</strong></p>
+                    <p>Dream trips: <strong>10</strong></p>
+                    <p>Time spent travelling: <strong>130 days</strong></p>
+                </div>
+                <div class="chart">
+                    <img src="assets/visited-continents.png" alt="Visited Continents Pie Chart">
+                </div>
+            </section>
+
+             <!-- Recent Trips Section -->
+            <section class="recent-trips">
+                <h2>Recent Trips:</h2>
+                <div class="trips-container">
+                    <div class="trip-card">
+                        <img src="assets/rome.png" alt="Italy, Rome">
+                        <div class="details">
+                            <h3>Italy, Rome</h3>
+                            <p class="stars">★★★★★</p>
+                            <p>29/08/2024 - 05/09/2024</p>
+                            <div class="actions">
+                                <button title="Details">📘</button>
+                                <button title="Edit">✏️</button>
+                                <button title="Delete">❌</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trip-card">
+                        <img src="assets/rome.png" alt="Italy, Rome">
+                        <div class="details">
+                            <h3>Italy, Rome</h3>
+                            <p class="stars">★★★★★</p>
+                            <p>29/08/2024 - 05/09/2024</p>
+                            <div class="actions">
+                                <button title="Details">📘</button>
+                                <button title="Edit">✏️</button>
+                                <button title="Delete">❌</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trip-card">
+                        <img src="assets/rome.png" alt="Italy, Rome">
+                        <div class="details">
+                            <h3>Italy, Rome</h3>
+                            <p class="stars">★★★★★</p>
+                            <p>29/08/2024 - 05/09/2024</p>
+                            <div class="actions">
+                                <button title="Details">📘</button>
+                                <button title="Edit">✏️</button>
+                                <button title="Delete">❌</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 MyTravelLog. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
