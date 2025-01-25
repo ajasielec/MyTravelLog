@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>MyTravelLog</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/addTripForm.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src = "assets/images/logo.png" alt="MyTravelLog Logo">
+                <h1>MyTravelLog</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="currentPage" href="index.html">Home</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="statistic.html">Statistics</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1>👜 Add New Trip</h1>
+        <form clas="add-trip-form">
+            <!-- Trip Information -->
+            <section>
+                <h2>📍 Trip Information</h2>
+                <div class="form-group">
+                <label for="trip-name">Trip Name:</label>
+                <input type="text" id="trip-name" placeholder="Value">
+                </div>
+                <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" placeholder="Search city/country">
+                </div>
+                <div class="form-group">
+                <label>Trip Type:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="trip-type" value="visited"> Visited</label>
+                    <label><input type="radio" name="trip-type" value="planned"> Planned</label>
+                    <label><input type="radio" name="trip-type" value="dream"> Dream</label>
+                </div>
+                </div>
+                <div class="form-group">
+                <label for="start-date">Start date:</label>
+                <input type="date" id="start-date">
+                </div>
+                <div class="form-group">
+                <label for="end-date">End date:</label>
+                <input type="date" id="end-date">
+                </div>
+                <div class="form-group">
+                <label>Score:</label>
+                <div class="stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                </div>
+            </section>
+
+            <!-- Details -->
+            <section>
+                <h2>📝 Details</h2>
+                <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" placeholder="Add a description of your trip..."></textarea>
+                </div>
+            </section>
+
+            <!-- Media and Photos -->
+            <section>
+                <h2>📷 Media and Photos</h2>
+                <button type="button" class="add-section-btn">+ Add section</button>
+            </section>
+
+            <!-- Actions -->
+            <div class="actions">
+                <button type="reset" class="btn cancel">Cancel</button>
+                <button type="submit" class="btn submit">+ Add New Trip</button>
+            </div>
+
+        </form>
+
+        <footer>
+            <p>© 2025 MyTravelLog. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

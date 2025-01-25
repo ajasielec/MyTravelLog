@@ -39,9 +39,11 @@ main {
     font-weight: bold;
     transition: background-color 0.3s;
 }
-
 .map-controls button:hover {
-    background-color: #65558fa1;
+    background-color: #65558f85;
+}
+.map-controls button:active {
+    background-color: #65558fc2;
 }
 
 .map-controls .add-new-trip {

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf6f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #d8f0f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #242424;
+  }
+  
+  .add-trip-form section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #c2e4ea;
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .add-trip-form h2 {
+    font-size: 1.2rem;
+    color: #007b8f;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, 
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .radio-group label {
+    margin-right: 10px;
+  }
+  
+  .stars span {
+    font-size: 1.5rem;
+    color: gold;
+    cursor: pointer;
+  }
+  
+  .actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .actions .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .actions .btn.cancel {
+    background: #f44336;
+    color: #fff;
+  }
+  
+  .actions .btn.submit {
+    background: #4caf50;
+    color: #fff;
+  }
+  
+  .add-section-btn {
+    background: #007b8f;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
