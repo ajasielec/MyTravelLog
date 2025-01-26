@@ -25,63 +25,66 @@
             </nav>
         </header>
 
-        <h1>👜 Add New Trip</h1>
-        <form clas="add-trip-form">
+        <h1 class="form-title">👜 Add New Trip</h1>
+        <form class="add-trip-form">
             <!-- Trip Information -->
+            <h2>📍 Trip Information</h2>
             <section>
-                <h2>📍 Trip Information</h2>
-                <div class="form-group">
-                <label for="trip-name">Trip Name:</label>
-                <input type="text" id="trip-name" placeholder="Value">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="trip-name">Trip Name:</label>
+                        <input type="text" id="trip-name" placeholder="Value">
+                        </div>
+                        <div class="form-group">
+                        <label for="location">Location:</label>
+                        <input type="text" id="location" placeholder="Search city/country">
+                        </div>
+                        <div class="form-group">
+                        <label>Trip Type:</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="trip-type" value="visited"> Visited</label>
+                            <label><input type="radio" name="trip-type" value="planned"> Planned</label>
+                            <label><input type="radio" name="trip-type" value="dream"> Dream</label>
+                        </div>
+                        </div>
                 </div>
-                <div class="form-group">
-                <label for="location">Location:</label>
-                <input type="text" id="location" placeholder="Search city/country">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="start-date">Start date:</label>
+                        <input type="date" id="start-date">
+                        </div>
+                        <div class="form-group">
+                        <label for="end-date">End date:</label>
+                        <input type="date" id="end-date">
+                        </div>
+                        <div class="form-group">
+                        <label>Score:</label>
+                        <div class="stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        </div>
                 </div>
-                <div class="form-group">
-                <label>Trip Type:</label>
-                <div class="radio-group">
-                    <label><input type="radio" name="trip-type" value="visited"> Visited</label>
-                    <label><input type="radio" name="trip-type" value="planned"> Planned</label>
-                    <label><input type="radio" name="trip-type" value="dream"> Dream</label>
-                </div>
-                </div>
-                <div class="form-group">
-                <label for="start-date">Start date:</label>
-                <input type="date" id="start-date">
-                </div>
-                <div class="form-group">
-                <label for="end-date">End date:</label>
-                <input type="date" id="end-date">
-                </div>
-                <div class="form-group">
-                <label>Score:</label>
-                <div class="stars">
-                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-                </div>
-                </div>
+
             </section>
 
             <!-- Details -->
-            <section>
-                <h2>📝 Details</h2>
-                <div class="form-group">
+            <h2>📝 Details</h2>
+            <div class="description">
                 <label for="description">Description:</label>
                 <textarea id="description" placeholder="Add a description of your trip..."></textarea>
-                </div>
-            </section>
+            </div>
 
             <!-- Media and Photos -->
-            <section>
-                <h2>📷 Media and Photos</h2>
+            <h2>📷 Media and Photos</h2>
+            <div class="media">
                 <button type="button" class="add-section-btn">+ Add section</button>
-            </section>
+            </div>
 
             <!-- Actions -->
             <div class="actions">
-                <button type="reset" class="btn cancel">Cancel</button>
-                <button type="submit" class="btn submit">+ Add New Trip</button>
-            </div>
+                <a href="index.html" class="btn cancel">Cancel</a>
+                <a href="index.html" class="btn submit">+ Add New Trip</a>
+           </div>
 
         </form>
 
