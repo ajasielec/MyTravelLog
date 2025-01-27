@@ -1,0 +1,95 @@
+body, h1, h2, ul, li, p, img, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.form-title {
+    margin: 0;
+    position: absolute;
+}
+
+.actions {
+    display: flex;
+    gap: 3rem;
+    margin-right: auto;
+    margin-left: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.actions .btn {
+    margin: 0;
+    padding: 0.7rem 0rem;
+}
+
+.actions .btn.return {
+    background: #60CBD7;
+}
+
+.actions .btn.edit {
+    background: #7AE89D;
+}
+
+.add-trip-form section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+
+.form-row {
+    margin: 0;
+    width: 100%;
+    max-width: 800px; 
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.form-group {
+    padding: 0;
+    min-width: 180px;
+}
+
+.form-group label {
+    font-weight: lighter;
+}
+
+.form-group span {
+    padding: 0 0rem;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.stars span {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    max-width: 70%;
+}
